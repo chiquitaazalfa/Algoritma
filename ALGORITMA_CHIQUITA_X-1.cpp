@@ -20,7 +20,7 @@ int Indeks_NilaiMin(int array[], int indeksAwal, int n)
 void Selection_Sort(int array[], int n)
 (
       int buffer, indeks;
-      for(int i = 0; i < n;i++)
+      for(int i = 0; i < n; i++)
       (
       indeks = Indeks_NilaiMin(array, i, n);
       buffer = array[i];
@@ -49,4 +49,4 @@ int main()
       cout << endl;
       system ("Pause");
       return 0;
-    
+}    
